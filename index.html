@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Games Hub Home</title>
+        <!-- font awesome link -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/regular.min.css" integrity="sha512-WidMaWaNmZqjk3gDE6KBFCoDpBz9stTsTZZTeocfq/eDNkLfpakEd7qR0bPejvy/x0iT0dvzIq4IirnBtVer5A==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+        <!-- google fonts link 1 -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <!-- google fonts link 2 -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+        <!-- google fonts link 3 -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+        <!-- google fonts link 4 -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+        <!-- css link -->
+        <link rel="stylesheet" href="./style.css">
+        <!-- favicon link -->
+        <link rel="shortcut icon" href="./image/home-right.png">
+    </head>
+    <body>
+        <!-- loading -->
+        <div id="load"></div>
+        <!-- header -->
+        <div class="header">
+            <div class="container">
+                <nav>
+                    <a class='logo' href='/'>
+                        <span>G</span>
+                        ames <span>H</span>
+                        ub
+                    </a>
+                    <input type="checkbox" id="check">
+                    <label for="check">
+                        <i class="fa-solid fa-bars" id="menu"></i>
+                        <i class="fa-solid fa-xmark" id="cancel"></i>
+                    </label>
+                    <ul>
+                        <li>
+                            <a class='active' href='index.html'>Home</a>
+                        </li>
+                        <li>
+                            <a href='./event.html'>Event</a>
+                        </li>
+                        <li>
+                            <a href='blog.html'>Blog</a>
+                        </li>
+                        <li>
+                            <a href='about.html'>About</a>
+                        </li>
+                        <div class="header-btn-ul">
+                            <button class="primary">
+                                Explore<i class="fa-regular fa-compass"></i>
+                            </button>
+                            <button class="danger">
+                                Cart<i class="fa-sharp fa-solid fa-cart-shopping"></i>
+                            </button>
+                            <button class="success">
+                                Create<i class="fa-solid fa-plus"></i>
+                            </button>
+                        </div>
+                    </ul>
+                    <div class="header-btn">
+                        <button class="primary">
+                            Explore<i class="fa-regular fa-compass"></i>
+                        </button>
+                        <button class="danger">
+                            Cart<i class="fa-sharp fa-solid fa-cart-shopping"></i>
+                        </button>
+                        <button class="success">
+                            Create<i class="fa-solid fa-plus"></i>
+                        </button>
+                    </div>
+                    <div class="header-icon">
+                        <i class="fa-regular fa-user"></i>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!-- home -->
+        <div class="home">
+            <div class="container">
+                <div class="home-half">
+                    <div class="home-left">
+                        <h1>
+                            Create Your new <span>Legacy</span>
+                        </h1>
+                        <p>Play with over 10 million gamers in leagues, tournaments and ladders</p>
+                        <div class="home-left-button">
+                            <a class='login' href='/login'>Login</a>
+                            <a class='signup' href='/signup'>Signup</a>
+                        </div>
+                    </div>
+                    <div class="home-right">
+                        <img src="./image/home-right.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- stream -->
+        <div class="stream">
+            <div class="container">
+                <h1>Live Streams</h1>
+                <div class="stream-inline-flex">
+                    <div class="stream-column">
+                        <div class="stream-col">
+                            <div class="stream-col-img">
+                                <a href="#">Live</a>
+                                <img src="./image/stream-col-1.png" alt="">
+                            </div>
+                            <div class="stream-col-text">
+                                <h3>Elemental Spirits</h3>
+                                <p>The Elemental Spirit gameplay of Mr.X is live.</p>
+                                <div class="stream-col-text-star">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="stream-col">
+                            <div class="stream-col-img">
+                                <a href="#">Live</a>
+                                <img src="./image/stream-col-2.png" alt="">
+                            </div>
+                            <div class="stream-col-text">
+                                <h3>Blaze City</h3>
+                                <p>Watch Blind defend his town from the external attacks.</p>
+                                <div class="stream-col-text-star">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="stream-col">
+                            <div class="stream-col-img">
+                                <a href="#">Live</a>
+                                <img src="./image/stream-col-3.png" alt="">
+                            </div>
+                            <div class="stream-col-text">
+                                <h3>Rocket League</h3>
+                                <p>Rouge0 is streaming Watch the live</p>
+                                <div class="stream-col-text-star">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="stream-col">
+                            <div class="stream-col-img">
+                                <a href="#">Live</a>
+                                <img src="./image/stream-col-4.png" alt="">
+                            </div>
+                            <div class="stream-col-text">
+                                <h3>Valorant</h3>
+                                <p>The Semi finals of the World Valorant Tournament is live</p>
+                                <div class="stream-col-text-star">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- feature game -->
+        <div class="feature">
+            <div class="container">
+                <h1>Featured Games</h1>
+                <div class="feature-inline-flex">
+                    <div class="feature-column">
+                        <div class="feature-col">
+                            <div class="feature-col-img">
+                                <img src="./image/featured-col-1.png" alt="">
+                            </div>
+                            <h3>Red Dead Redemption 2</h3>
+                            <p>Loaded onto all of that contextual activity and conversation is the ability ....</p>
+                            <div class="feature-col-star">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="feature-col">
+                            <div class="feature-col-img">
+                                <img src="./image/featured-col-2.png" alt="">
+                            </div>
+                            <h3>Blaze City</h3>
+                            <p>With rival group of thugs started waging war on each other the city is now ....</p>
+                            <div class="feature-col-star">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="feature-col">
+                            <div class="feature-col-img">
+                                <img src="./image/featured-col-3.png" alt="">
+                            </div>
+                            <h3>Elemental Spirits</h3>
+                            <p>11 year old Wix starts his first adventure. Follow him and see the world has ....</p>
+                            <div class="feature-col-star">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- events -->
+        <div class="events">
+            <div class="container">
+                <h1>Top Events</h1>
+                <div class="events-half">
+                    <div class="events-left">
+                        <img src="./image/Rocket-League.png" alt="">
+                    </div>
+                    <div class="events-right">
+                        <h3>Rocket League</h3>
+                        <p>The Rocket League Championship Series (RLCS) 2021-22 season is here and bigger than ever. The world's premier professional Rocket League competition is back with $6,000,000 in prizing up for grabs, an open circuit-based format, more regions, and LANs making their return, the league is set to make another leap forward</p>
+                        <div class="result">
+                            <div class="result-col">
+                                <h6 class="one">
+                                    <span>$6,000,000</span>
+                                    in prizes
+                                </h6>
+                            </div>
+                            <div class="result-col">
+                                <h6 class="two">
+                                    <span>1201</span>
+                                    participants
+                                </h6>
+                            </div>
+                        </div>
+                        <button>Register</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- free games -->
+        <div class="free">
+            <div class="container">
+                <div class="free-text">
+                    <h1>Top Free Games</h1>
+                    <i class="fa-sharp fa-solid fa-arrow-right"></i>
+                </div>
+                <div class="free-column free-column-1">
+                    <div class="free-col">
+                        <div class="free-col-img">
+                            <img src="./image/top-game-1.png" alt="">
+                        </div>
+                        <div class="free-col-text">
+                            <h3>FORZA 5</h3>
+                            <p>Forza Horizon 5 is a 2021 racing video game developed by Playground Games ....</p>
+                            <div class="free-col-star">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="free-col">
+                        <div class="free-col-img">
+                            <img src="./image/top-game-2.png" alt="">
+                        </div>
+                        <div class="free-col-text">
+                            <h3>VALORANT</h3>
+                            <p>Valorant is a free-to-play first-person hero shooter developed and published by Riot ....</p>
+                            <div class="free-col-star">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="free-col">
+                        <div class="free-col-img">
+                            <img src="./image/top-game-3.png" alt="">
+                        </div>
+                        <div class="free-col-text">
+                            <h3>GOD OF WAR</h3>
+                            <p>God of War is an action-adventure game franchise created by David Jaffe ....</p>
+                            <div class="free-col-star">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="free-col">
+                        <div class="free-col-img">
+                            <img src="./image/top-game-4.png" alt="">
+                        </div>
+                        <div class="free-col-text">
+                            <h3>RDR 2</h3>
+                            <p>Red Dead Redemption 2 is a 2018 action-adventure game developed and published ....</p>
+                            <div class="free-col-star">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="free-col">
+                        <div class="free-col-img">
+                            <img src="./image/top-game-5.png" alt="">
+                        </div>
+                        <div class="free-col-text">
+                            <h3>GUILDWARS</h3>
+                            <p>Guild Wars is an online role-playing game series developed by ArenaNet and published ....</p>
+                            <div class="free-col-star">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="free-col">
+                        <div class="free-col-img">
+                            <img src="./image/top-game-6.png" alt="">
+                        </div>
+                        <div class="free-col-text">
+                            <h3>EURO TRUCK</h3>
+                            <p>Euro Truck Simulator 2 is an open world truck simulator game developed and published ....</p>
+                            <div class="free-col-star">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="free-col">
+                        <div class="free-col-img">
+                            <img src="./image/top-game-7.png" alt="">
+                        </div>
+                        <div class="free-col-text">
+                            <h3>ROCKET LEAGUE</h3>
+                            <p>Rocket League is a high-powered hybrid of arcade-style soccer and  and vehicular mayhem ....</p>
+                            <div class="free-col-star">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="free-col">
+                        <div class="free-col-img">
+                            <img src="./image/top-game-8.png" alt="">
+                        </div>
+                        <div class="free-col-text">
+                            <h3>CYBERPUNK 2077</h3>
+                            <p>Cyberpunk 2077 is an action role-playing video game developed by CD Projekt Red ....</p>
+                            <div class="free-col-star">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="free-col">
+                        <div class="free-col-img">
+                            <img src="./image/top-game-9.png" alt="">
+                        </div>
+                        <div class="free-col-text">
+                            <h3>GTA V</h3>
+                            <p>Grand Theft Auto V is a 2013 action-adventure game developed by Rockstar ....</p>
+                            <div class="free-col-star">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- newsletter -->
+        <div class="newsletter">
+            <div class="container">
+                <div class="newsletter-half">
+                    <div class="newsletter-left">
+                        <h2>NEWSLETTER</h2>
+                        <h6>Stay Upto Date</h6>
+                    </div>
+                    <div class="newsletter-right">
+                        <input type="email" placeholder="Your Email..." required>
+                        <i class="fa-solid fa-paper-plane"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- footer -->
+        <div class="footer">
+            <div class="container">
+                <div class="footer-column">
+                    <div class="footer-col footer-col-1">
+                        <a class="logo" href="#">
+                            <span>G</span>
+                            ames <span>H</span>
+                            ub
+                        </a>
+                        <p>Play with over 10 million gamers in leagues, tournaments and ladders</p>
+                        <div class="play">
+                            <button>
+                                <i class="fa-brands fa-google-play"></i>
+                                Play Store
+                            </button>
+                            <button>
+                                <i class="fa-brands fa-app-store"></i>
+                                App Store
+                            </button>
+                        </div>
+                    </div>
+                    <div class="footer-col">
+                        <h1>Company</h1>
+                        <ul>
+                            <li>
+                                <a href="#">About Us</a>
+                            </li>
+                            <li>
+                                <a href="#">Legal Information</a>
+                            </li>
+                            <li>
+                                <a href="#">Contact Us</a>
+                            </li>
+                            <li>
+                                <a href="#">Blogs</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h1>Help Center</h1>
+                        <ul>
+                            <li>
+                                <a href="#">Find a Property</a>
+                            </li>
+                            <li>
+                                <a href="#">How To Host?</a>
+                            </li>
+                            <li>
+                                <a href="#">Why Us?</a>
+                            </li>
+                            <li>
+                                <a href="#">FAQs</a>
+                            </li>
+                            <li>
+                                <a href="#">Rental Guides</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h1>Contact Info</h1>
+                        <ul>
+                            <li>
+                                <a href="#">Phone: 1234567890</a>
+                            </li>
+                            <li>
+                                <a href="#">Email: ideologics@email.com</a>
+                            </li>
+                            <li>
+                                <a href="#">Location: 100 Smart Street, LA, USA</a>
+                            </li>
+                            <div class="footer-icon">
+                                <i class="fa-brands fa-square-facebook"></i>
+                                <i class="fa-brands fa-square-twitter"></i>
+                                <i class="fa-brands fa-square-instagram"></i>
+                                <i class="fa-brands fa-linkedin"></i>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="hr"></div>
+            <div class="container">
+                <div class="footer-half">
+                    <div class="footer-left">
+                        <p>© 2023 Infinite Project | All rights reserved</p>
+                    </div>
+                    <div class="footer-right">
+                        <p>Created with love by Infininte Project</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- script -->
+        <script src="./script.js"></script>
+    </body>
+</html>

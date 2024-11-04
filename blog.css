@@ -1,0 +1,274 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: #000000 !important;
+    background: url(./image/background-2.png);
+    background-attachment: fixed;
+}
+
+/* blog */
+.blog {
+    padding: 50px 0;
+}
+
+.blog-img {
+    width: 100%;
+}
+
+.blog-img img {
+    width: 100%;
+}
+
+.blog-text h1 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 160%;
+    color: #FFFFFF;
+    margin: 20px 0;
+}
+
+/* blog media */
+@media(max-width: 1024px) {
+    .blog-text h1 {
+        font-size: 30px;
+    }
+}
+
+@media(max-width: 500px) {
+    .blog-text h1 {
+        font-size: 20px;
+    }
+
+    .blog-img {
+        height: 100%;
+    }
+
+    .blog-img img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+/* hopper */
+.hopper {
+    padding: 50px 0;
+}
+
+.hopper-text h1 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 37px;
+    line-height: 160%;
+    color: #FFFFFF;
+}
+
+.hopper-text p {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 160%;
+    color: #FFFFFF;
+    margin: 20px 0;
+    width: 80%;
+}
+
+/* hopper media */
+@media(max-width: 1024px) {
+    .hopper-text p {
+        width: 100%;
+    }
+}
+
+@media(max-width: 500px) {
+    .hopper-text h1 {
+        font-size: 30px;
+    }
+
+    .hopper-text p {
+        font-size: 16px;
+    }
+}
+
+/* quests */
+.quests {
+    padding: 50px 0;
+}
+
+.quests-half {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.quests-left, .quests-right {
+    flex-basis: 50%;
+}
+
+.quests-right {
+    width: 737px;
+    height: 386px;
+}
+
+.quests-right img {
+    width: 100%;
+    height: 100%;
+}
+
+.quests-left h1 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 37px;
+    line-height: 160%;
+    color: #FFFFFF;
+}
+
+.quests-left p {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 160%;
+    color: #FFFFFF;
+    margin: 20px 0;
+}
+
+/* quests media */
+@media(max-width: 1024px) {
+    .quests-left, .quests-right {
+        flex-basis: 100%;
+    }
+
+    .quests-half {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media(max-width: 500px) {
+    .quests-left h1 {
+        font-size: 30px;
+    }
+
+    .quests-left p {
+        font-size: 16px;
+    }
+
+    .quests-right {
+        width: 737px;
+        height: 286px;
+    }
+}
+
+/* fortnite */
+.fortnite {
+    padding: 50px 0;
+}
+
+.fortnite-img {
+    width: 80%;
+}
+
+.fortnite-img img {
+    width: 100%;
+}
+
+@media(max-width: 500px) {
+    .fortnite-img {
+        width: 100%;
+    }
+}
+
+.paragraph {
+    padding: 50px 0;
+}
+
+.paragraph p {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 160%;
+    color: #FFFFFF;
+}
+
+.paragraph .p1 {
+    width: 60%;
+    margin: 20px 0;
+}
+
+.paragraph .p2 {
+    width: 80%;
+}
+
+/* paragraph media */
+@media(max-width: 1024px) {
+    .paragraph .p1 {
+        width: 80%;
+    }
+
+    .paragraph .p2 {
+        width: 100%;
+    }
+}
+
+@media(max-width: 500px) {
+    .paragraph .p1 {
+        width: 90%;
+    }
+
+    .paragraph p {
+        font-size: 16px;
+    }
+}
+
+/* bottom img */
+.bottom {
+    padding: 50px 0;
+}
+
+.bottom p {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 160%;
+    color: #FFFFFF;
+    margin: 40px 0;
+    width: 80%;
+}
+
+.bottom-img {
+    width: 100%;
+}
+
+.bottom-img img {
+    width: 100%;
+}
+
+/* bottom media */
+@media(max-width: 500px) {
+    .bottom p {
+        font-size: 16px;
+    }
+
+    .bottom-img {
+        height: 200px;
+    }
+
+    .bottom-img img {
+        height: 100%;
+    }
+}

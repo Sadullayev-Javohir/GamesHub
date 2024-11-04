@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Games Hub Event</title>
+        <!-- font awesome link -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/regular.min.css" integrity="sha512-WidMaWaNmZqjk3gDE6KBFCoDpBz9stTsTZZTeocfq/eDNkLfpakEd7qR0bPejvy/x0iT0dvzIq4IirnBtVer5A==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+        <!-- google fonts link 1 -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <!-- google fonts link 2 -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+        <!-- google fonts link 3 -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+        <!-- google fonts link 4 -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+        <!-- css link -->
+        <link rel="stylesheet" href="./style.css">
+        <!-- event style -->
+        <link rel="stylesheet" href="./event.css">
+        <!-- favicon link -->
+        <link rel="shortcut icon" href="./image/home-right.png">
+    </head>
+    <body>
+        <!-- loading -->
+        <div id="load"></div>
+        <!-- header -->
+        <div class="header">
+            <div class="container">
+                <nav>
+                    <a class='logo' href='event.html'>
+                        <span>G</span>
+                        ames <span>H</span>
+                        ub
+                    </a>
+                    <input type="checkbox" id="check">
+                    <label for="check">
+                        <i class="fa-solid fa-bars" id="menu"></i>
+                        <i class="fa-solid fa-xmark" id="cancel"></i>
+                    </label>
+                    <ul>
+                        <li>
+                            <a href='index.html'>Home</a>
+                        </li>
+                        <li>
+                            <a class='active' href='event.html'>Event</a>
+                        </li>
+                        <li>
+                            <a href='blog.html'>Blog</a>
+                        </li>
+                        <li>
+                            <a href='about.html'>About</a>
+                        </li>
+                        <div class="header-btn-ul">
+                            <button class="primary">
+                                Explore<i class="fa-regular fa-compass"></i>
+                            </button>
+                            <button class="danger">
+                                Cart<i class="fa-sharp fa-solid fa-cart-shopping"></i>
+                            </button>
+                            <button class="success">
+                                Create<i class="fa-solid fa-plus"></i>
+                            </button>
+                        </div>
+                    </ul>
+                    <div class="header-btn">
+                        <button class="primary">
+                            Explore<i class="fa-regular fa-compass"></i>
+                        </button>
+                        <button class="danger">
+                            Cart<i class="fa-sharp fa-solid fa-cart-shopping"></i>
+                        </button>
+                        <button class="success">
+                            Create<i class="fa-solid fa-plus"></i>
+                        </button>
+                    </div>
+                    <div class="header-icon">
+                        <i class="fa-regular fa-user"></i>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!-- search -->
+        <center>
+            <div class="search-center">
+                <div class="container">
+                    <div class="search">
+                        <input type="search" placeholder="Search Tourtament">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                </div>
+            </div>
+        </center>
+        <!-- games -->
+        <div class="games">
+            <div class="container">
+                <h1>Games</h1>
+                <div class="games-column">
+                    <div class="games-col">
+                        <img src="./image/games-1.png" alt="">
+                        <h2>Bloodborne</h2>
+                    </div>
+                    <div class="games-col">
+                        <img src="./image/games-2.png" alt="">
+                        <h2>God Of War</h2>
+                    </div>
+                    <div class="games-col">
+                        <img src="./image/games-3.png" alt="">
+                        <h2>Forza Horizon 5</h2>
+                    </div>
+                    <div class="games-col">
+                        <img src="./image/games-4.png" alt="">
+                        <h2>Batman</h2>
+                    </div>
+                    <div class="games-col">
+                        <img src="./image/games-6.png" alt="">
+                        <h2>Valorant</h2>
+                    </div>
+                    <div class="games-col">
+                        <img src="./image/games-7.png" alt="">
+                        <h2>Rocket League</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- tournaments -->
+        <div class="tournaments">
+            <div class="container">
+                <h1>Tournaments</h1>
+                <div class="tournaments-column">
+                    <div class="tournaments-col">
+                        <div class="tournaments-col-img">
+                            <img src="./image/tournaments-1.png" alt="">
+                            <h6>In 2 Days</h6>
+                        </div>
+                        <div class="tournaments-col-text tournaments-col-text-1">
+                            <div class="title">
+                                <h2>Valorant</h2>
+                                <h6>Prizing</h6>
+                            </div>
+                            <div class="title-2">
+                                <h3>World Championship</h3>
+                                <h4>$250</h4>
+                            </div>
+                            <div class="title-3">
+                                <h5>Battle Pro Tournament</h5>
+                            </div>
+                            <div class="title-4">
+                                <h5>July 2, 2022</h5>
+                                <h6>8/8 Teams</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tournaments-col">
+                        <div class="tournaments-col-img">
+                            <img src="./image/tournaments-2.png" alt="">
+                            <h6>In 2 Days</h6>
+                        </div>
+                        <div class="tournaments-col-text">
+                            <div class="title">
+                                <h2>Rocket League</h2>
+                                <h6>Prizing</h6>
+                            </div>
+                            <div class="title-2">
+                                <h3>Weekend Blast</h3>
+                                <h4>$250</h4>
+                            </div>
+                            <div class="title-3">
+                                <h5>Goal Pro Tournament</h5>
+                            </div>
+                            <div class="title-4">
+                                <h5>July 2, 2022</h5>
+                                <h6>8/8 Teams</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tournaments-col">
+                        <div class="tournaments-col-img">
+                            <img src="./image/tournaments-3.png" alt="">
+                            <h6>In 2 Days</h6>
+                        </div>
+                        <div class="tournaments-col-text">
+                            <div class="title">
+                                <h2>PUBG:BATTLEGROUND</h2>
+                                <h6>Prizing</h6>
+                            </div>
+                            <div class="title-2">
+                                <h3>Sunday Dinner</h3>
+                                <h4>$250</h4>
+                            </div>
+                            <div class="title-3">
+                                <h5>Battle Pro Tournament</h5>
+                            </div>
+                            <div class="title-4">
+                                <h5>July 2, 2022</h5>
+                                <h6>8/8 Teams</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tournaments-col">
+                        <div class="tournaments-col-img">
+                            <img src="./image/tournaments-4.png" alt="">
+                            <h6>In 2 Days</h6>
+                        </div>
+                        <div class="tournaments-col-text">
+                            <div class="title">
+                                <h2>CS GO</h2>
+                                <h6>Prizing</h6>
+                            </div>
+                            <div class="title-2">
+                                <h3>World Championship</h3>
+                                <h4>$250</h4>
+                            </div>
+                            <div class="title-3">
+                                <h5>Battle Pro Tournament</h5>
+                            </div>
+                            <div class="title-4">
+                                <h5>July 2, 2022</h5>
+                                <h6>8/8 Teams</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tournaments-col">
+                        <div class="tournaments-col-img">
+                            <img src="./image/tournaments-5.png" alt="">
+                            <h6>In 2 Days</h6>
+                        </div>
+                        <div class="tournaments-col-text">
+                            <div class="title">
+                                <h2>Call Of Duty</h2>
+                                <h6>Prizing</h6>
+                            </div>
+                            <div class="title-2">
+                                <h3>Weekend Blast</h3>
+                                <h4>$250</h4>
+                            </div>
+                            <div class="title-3">
+                                <h5>Battle Pro Tournament</h5>
+                            </div>
+                            <div class="title-4">
+                                <h5>July 2, 2022</h5>
+                                <h6>8/8 Teams</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tournaments-col">
+                        <div class="tournaments-col-img">
+                            <img src="./image/tournaments-6.png" alt="">
+                            <h6>In 3 Days</h6>
+                        </div>
+                        <div class="tournaments-col-text">
+                            <div class="title">
+                                <h2>OVERWATCH 2</h2>
+                                <h6>Prizing</h6>
+                            </div>
+                            <div class="title-2">
+                                <h3>Guild Wars</h3>
+                                <h4>$250</h4>
+                            </div>
+                            <div class="title-3">
+                                <h5>Battle Pro Tournament</h5>
+                            </div>
+                            <div class="title-4">
+                                <h5>July 3, 2022</h5>
+                                <h6>8/8 Teams</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tournaments-col">
+                        <div class="tournaments-col-img">
+                            <img src="./image/tournaments-7.png" alt="">
+                            <h6>In 3 Days</h6>
+                        </div>
+                        <div class="tournaments-col-text">
+                            <div class="title">
+                                <h2>Call Of Duty: Black Ops III</h2>
+                                <h6>Prizing</h6>
+                            </div>
+                            <div class="title-2">
+                                <h3>World Championship</h3>
+                                <h4>$250</h4>
+                            </div>
+                            <div class="title-3">
+                                <h5>Battle Pro Tournament</h5>
+                            </div>
+                            <div class="title-4">
+                                <h5>July 3, 2022</h5>
+                                <h6>8/8 Teams</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tournaments-col">
+                        <div class="tournaments-col-img">
+                            <img src="./image/tournaments-8.png" alt="">
+                            <h6>In 5 Days</h6>
+                        </div>
+                        <div class="tournaments-col-text">
+                            <div class="title">
+                                <h2>Apex Legends</h2>
+                                <h6>Prizing</h6>
+                            </div>
+                            <div class="title-2">
+                                <h3>Weekend Blast</h3>
+                                <h4>$250</h4>
+                            </div>
+                            <div class="title-3">
+                                <h5>Battle Pro Tournament</h5>
+                            </div>
+                            <div class="title-4">
+                                <h5>July 3, 2022</h5>
+                                <h6>8/8 Teams</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tournaments-col">
+                        <div class="tournaments-col-img">
+                            <img src="./image/tournaments-9.png" alt="">
+                            <h6>In 5 Days</h6>
+                        </div>
+                        <div class="tournaments-col-text">
+                            <div class="title">
+                                <h2>Dungeons & DRAGONS</h2>
+                                <h6>Prizing</h6>
+                            </div>
+                            <div class="title-2">
+                                <h3>Night Strike</h3>
+                                <h4>$250</h4>
+                            </div>
+                            <div class="title-3">
+                                <h5>Battle Pro Tournament</h5>
+                            </div>
+                            <div class="title-4">
+                                <h5>July 3, 2022</h5>
+                                <h6>8/8 Teams</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tournaments-col">
+                        <div class="tournaments-col-img">
+                            <img src="./image/tournaments-10.png" alt="">
+                            <h6>In 5 Days</h6>
+                        </div>
+                        <div class="tournaments-col-text">
+                            <div class="title">
+                                <h2>MINECRAFT</h2>
+                                <h6>Prizing</h6>
+                            </div>
+                            <div class="title-2">
+                                <h3>World War</h3>
+                                <h4>$250</h4>
+                            </div>
+                            <div class="title-3">
+                                <h5>Battle Pro Tournament</h5>
+                            </div>
+                            <div class="title-4">
+                                <h5>July 5, 2022</h5>
+                                <h6>8/8 Teams</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tournaments-col">
+                        <div class="tournaments-col-img">
+                            <img src="./image/tournaments-11.png" alt="">
+                            <h6>In 5 Days</h6>
+                        </div>
+                        <div class="tournaments-col-text">
+                            <div class="title">
+                                <h2>Genshin Impact</h2>
+                                <h6>Prizing</h6>
+                            </div>
+                            <div class="title-2">
+                                <h3>The Void Race</h3>
+                                <h4>$250</h4>
+                            </div>
+                            <div class="title-3">
+                                <h5>Battle Pro Tournament</h5>
+                            </div>
+                            <div class="title-4">
+                                <h5>July 5, 2022</h5>
+                                <h6>8/8 Teams</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tournaments-col">
+                        <div class="tournaments-col-img">
+                            <img src="./image/tournaments-12.png" alt="">
+                            <h6>In 7 Days</h6>
+                        </div>
+                        <div class="tournaments-col-text">
+                            <div class="title">
+                                <h2>League Of Legends</h2>
+                                <h6>Prizing</h6>
+                            </div>
+                            <div class="title-2">
+                                <h3>PVP Blast</h3>
+                                <h4>$250</h4>
+                            </div>
+                            <div class="title-3">
+                                <h5>Battle Pro Tournament</h5>
+                            </div>
+                            <div class="title-4">
+                                <h5>July 7, 2022</h5>
+                                <h6>8/8 Teams</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tournaments-col">
+                        <div class="tournaments-col-img">
+                            <img src="./image/tournaments-13.png" alt="">
+                            <h6>In 7 Days</h6>
+                        </div>
+                        <div class="tournaments-col-text">
+                            <div class="title">
+                                <h2>Call Of Duty: MW3</h2>
+                                <h6>Prizing</h6>
+                            </div>
+                            <div class="title-2">
+                                <h3>World Championship</h3>
+                                <h4>$250</h4>
+                            </div>
+                            <div class="title-3">
+                                <h5>Battle Pro Tournament</h5>
+                            </div>
+                            <div class="title-4">
+                                <h5>July 7, 2022</h5>
+                                <h6>8/8 Teams</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tournaments-col">
+                        <div class="tournaments-col-img">
+                            <img src="./image/tournaments-14.png" alt="">
+                            <h6>In 9 Days</h6>
+                        </div>
+                        <div class="tournaments-col-text">
+                            <div class="title">
+                                <h2>FIFA Online 4</h2>
+                                <h6>Prizing</h6>
+                            </div>
+                            <div class="title-2">
+                                <h3>Regional Contest</h3>
+                                <h4>$250</h4>
+                            </div>
+                            <div class="title-3">
+                                <h5>Battle Pro Tournament</h5>
+                            </div>
+                            <div class="title-4">
+                                <h5>July 7, 2022</h5>
+                                <h6>8/8 Teams</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tournaments-col">
+                        <div class="tournaments-col-img">
+                            <img src="./image/tournaments-15.png" alt="">
+                            <h6>In 9 Days</h6>
+                        </div>
+                        <div class="tournaments-col-text">
+                            <div class="title">
+                                <h2>Minecraft</h2>
+                                <h6>Prizing</h6>
+                            </div>
+                            <div class="title-2">
+                                <h3>Design Your Way</h3>
+                                <h4>$250</h4>
+                            </div>
+                            <div class="title-3">
+                                <h5>Battle Pro Tournament</h5>
+                            </div>
+                            <div class="title-4">
+                                <h5>July 9, 2022</h5>
+                                <h6>8/8 Teams</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tournaments-col">
+                        <div class="tournaments-col-img">
+                            <img src="./image/tournaments-16.png" alt="">
+                            <h6>In 9 Days</h6>
+                        </div>
+                        <div class="tournaments-col-text">
+                            <div class="title">
+                                <h2>FarCry Primal</h2>
+                                <h6>Prizing</h6>
+                            </div>
+                            <div class="title-2">
+                                <h3>Survivors</h3>
+                                <h4>$250</h4>
+                            </div>
+                            <div class="title-3">
+                                <h5>Battle Pro Tournament</h5>
+                            </div>
+                            <div class="title-4">
+                                <h5>July 9, 2022</h5>
+                                <h6>8/8 Teams</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tournaments-col">
+                        <div class="tournaments-col-img">
+                            <img src="./image/tournaments-17.png" alt="">
+                            <h6>In 12 Days</h6>
+                        </div>
+                        <div class="tournaments-col-text">
+                            <div class="title">
+                                <h2>Rocket League</h2>
+                                <h6>Prizing</h6>
+                            </div>
+                            <div class="title-2">
+                                <h3>Thursday Triumph</h3>
+                                <h4>$250</h4>
+                            </div>
+                            <div class="title-3">
+                                <h5>Battle Pro Tournament</h5>
+                            </div>
+                            <div class="title-4">
+                                <h5>July 9, 2022</h5>
+                                <h6>8/8 Teams</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tournaments-col">
+                        <div class="tournaments-col-img">
+                            <img src="./image/tournaments-18.png" alt="">
+                            <h6>In 15 Days</h6>
+                        </div>
+                        <div class="tournaments-col-text">
+                            <div class="title">
+                                <h2>Greenshin Impact</h2>
+                                <h6>Prizing</h6>
+                            </div>
+                            <div class="title-2">
+                                <h3>Weekend Blast</h3>
+                                <h4>$250</h4>
+                            </div>
+                            <div class="title-3">
+                                <h5>Battle Pro Tournament</h5>
+                            </div>
+                            <div class="title-4">
+                                <h5>July 9, 2022</h5>
+                                <h6>8/8 Teams</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- newsletter -->
+        <div class="newsletter">
+            <div class="container">
+                <div class="newsletter-half">
+                    <div class="newsletter-left">
+                        <h2>NEWSLETTER</h2>
+                        <h6>Stay Upto Date</h6>
+                    </div>
+                    <div class="newsletter-right">
+                        <input type="email" placeholder="Your Email..." required>
+                        <i class="fa-solid fa-paper-plane"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- footer -->
+        <div class="footer">
+            <div class="container">
+                <div class="footer-column">
+                    <div class="footer-col footer-col-1">
+                        <a class="logo" href="#">
+                            <span>G</span>
+                            ames <span>H</span>
+                            ub
+                        </a>
+                        <p>Play with over 10 million gamers in leagues, tournaments and ladders</p>
+                        <div class="play">
+                            <button>
+                                <i class="fa-brands fa-google-play"></i>
+                                Play Store
+                            </button>
+                            <button>
+                                <i class="fa-brands fa-app-store"></i>
+                                App Store
+                            </button>
+                        </div>
+                    </div>
+                    <div class="footer-col">
+                        <h1>Company</h1>
+                        <ul>
+                            <li>
+                                <a href="#">About Us</a>
+                            </li>
+                            <li>
+                                <a href="#">Legal Information</a>
+                            </li>
+                            <li>
+                                <a href="#">Contact Us</a>
+                            </li>
+                            <li>
+                                <a href="#">Blogs</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h1>Help Center</h1>
+                        <ul>
+                            <li>
+                                <a href="#">Find a Property</a>
+                            </li>
+                            <li>
+                                <a href="#">How To Host?</a>
+                            </li>
+                            <li>
+                                <a href="#">Why Us?</a>
+                            </li>
+                            <li>
+                                <a href="#">FAQs</a>
+                            </li>
+                            <li>
+                                <a href="#">Rental Guides</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h1>Contact Info</h1>
+                        <ul>
+                            <li>
+                                <a href="#">Phone: 1234567890</a>
+                            </li>
+                            <li>
+                                <a href="#">Email: ideologics@email.com</a>
+                            </li>
+                            <li>
+                                <a href="#">Location: 100 Smart Street, LA, USA</a>
+                            </li>
+                            <div class="footer-icon">
+                                <i class="fa-brands fa-square-facebook"></i>
+                                <i class="fa-brands fa-square-twitter"></i>
+                                <i class="fa-brands fa-square-instagram"></i>
+                                <i class="fa-brands fa-linkedin"></i>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="hr"></div>
+            <div class="container">
+                <div class="footer-half">
+                    <div class="footer-left">
+                        <p>© 2023 Infinite Project | All rights reserved</p>
+                    </div>
+                    <div class="footer-right">
+                        <p>Created with love by Infininte Project</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- script -->
+        <script src="./script.js"></script>
+    </body>
+</html>
